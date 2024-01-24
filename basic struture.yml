@@ -1,0 +1,10 @@
+basic struture
+main page
+    section for faq`s
+        make a option to enter name and year
+    section for resources like notes lectures and all
+        under this select year to directing to a telegram group for the resources
+        under this add a timer showing them time remaining for the upcoming sem exam
+    a section for posting and reading forems
+        ask the user to enter an email and user name such that they post there forems
+    a section for announments and remainders

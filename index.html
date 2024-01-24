@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Learning Platform</title>
+</head>
+<body>
+
+<div id="app">
+    <!-- Section for Group Project Collaboration -->
+    <section id="groupCollaboration">
+        <h2>Group Project Collaboration</h2>
+        <label for="question">Post a Question:</label>
+        <textarea id="question" placeholder="Type your question here"></textarea>
+        <button id="postQuestion">Post Question</button>
+
+        <!-- Container for displaying questions -->
+        <div id="postsContainer"></div>
+    </section>
+
+    <!-- Section for Resources -->
+    <section id="resources">
+        <h2>Resources</h2>
+        <label for="yearSelector">Select your year:</label>
+        <select id="yearSelector">
+            <option value="firstYear">First Year</option>
+            <option value="secondYear">Second Year</option>
+            <option value="thirdYear">Third Year</option>
+            <option value="fourthYear">Fourth Year</option>
+        </select>
+        <a href="https://t.me/s/Feresource" id="joinTelegram">Join Telegram Group</a>
+
+        <!-- Input field and button for posting Telegram link -->
+        <label for="telegramLink">Post Telegram Link:</label>
+        <input type="text" id="telegramLink" placeholder="https://t.me/s/Feresource">
+        <button id="postLink">Post Link</button>
+
+        <p>Time remaining for upcoming semester exam:</p>
+        <div id="timer">00:00:00</div>
+    </section>
+
+    <!-- Section for Forums -->
+    <section id="forums">
+        <h2>Forums</h2>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Your Username">
+        <button id="postForum">Post to Forums</button>
+        <!-- Add forum posts display here -->
+    </section>
+
+    <!-- Section for Announcements -->
+    <section id="announcements">
+        <h2>Announcements</h2>
+        <!-- Add announcement content here -->
+    </section>
+</div>
+
+<script src="GroupCollaboration.js"></script>
+<script src="Resources.js"></script>
+<script src="Forums.js"></script>
+<script src="Announcements.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
